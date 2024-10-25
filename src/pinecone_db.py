@@ -6,10 +6,10 @@ from dotenv import load_dotenv
 load_dotenv()
 
 client = OpenAI(
-    api_key= 
+    api_key=  
 )
 pinecone_client = Pinecone(
-    api_key=
+    api_key= 
 )  
 
 class vectorDB:

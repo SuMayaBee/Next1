@@ -5,7 +5,7 @@ import { OpenAI } from "openai";
 
 // Initialize OpenAI with environment variable for security
 const openai = new OpenAI({
-  apiKey:  // Store your API key in environment variables
+  apiKey:  , // Store your API key in environment variables
   dangerouslyAllowBrowser: true, // Allow browser usage of API
 });
 
